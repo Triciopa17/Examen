@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-fucsia {
+  background-color: #FF00FF; /* Color fucsia */
+}
+
+.button-verdeclaro {
+  background-color: #90EE90; /* Color verde claro */
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
